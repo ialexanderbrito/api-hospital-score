@@ -15,8 +15,9 @@
 
 </p>
 <p align="center">
-  <a href="https://raw.githubusercontent.com/ialexanderbrito/api-hospital-score/master/Insomnia_2020-06-10.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+  <a href="https://insomnia.rest/run/?label=API-HospitalScore&uri=https://raw.githubusercontent.com/ialexanderbrito/api-hospital-score/master/Insomnia_2020-06-10.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 </p>
+
 
 ### :rocket: Tecnologias usadas
 Esse projeto foi desenvolvido com as seguintes tecnologias:
