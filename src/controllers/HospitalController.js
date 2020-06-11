@@ -10,6 +10,7 @@ module.exports = {
   async store(request, response) {
     const { filename } = request.file;
     const { name, uf, city, type_hospital, latitude, longitude } = request.body;
+    const { user_id } = request.headers;
 
     const location = {
       type: 'Point',
@@ -17,6 +18,7 @@ module.exports = {
     };
 
     const hospital = await Hospital.create({
+      user: user_id,
       name,
       uf,
       city,
