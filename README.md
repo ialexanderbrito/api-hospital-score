@@ -52,7 +52,6 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 
 <b>[Node.js](https://nodejs.org/en/)</b>
 
-<b>[Expo](https://expo.io)</b>
 
 E também será preciso um editor, eu indico o <b>[VSCode](https://code.visualstudio.com/)</b>
 
