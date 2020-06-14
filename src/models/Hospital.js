@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 const PointSchema = require('../utils/PointSchema');
+const { API_URL } = require('../../.env.json');
 
 const HospitalSchema = new mongoose.Schema(
   {
@@ -25,7 +26,7 @@ const HospitalSchema = new mongoose.Schema(
 );
 
 HospitalSchema.virtual('image_uri').get(function () {
-  return `http://192.168.100.4:3333/files/${this.image_url}`;
+  return `${API_URL}/files/${this.image_url}`;
 });
 
 module.exports = mongoose.model('Hospital', HospitalSchema);
