@@ -72,6 +72,9 @@ $ npm run dev ou yarn dev
 
 # O servidor inciará na porta:3333 - acesse http://localhost:3333 
 ```
+
+<b>💡 Lembre de renomear o arquivo ``.env.example.json`` para ``.env.json`` e coloque o IP da sua máquina.</b>
+
 <b>💡 Para listar todos os hospitais basta acessar ``http://localhost:3333/hospitais`` com o backend rodando.</b>
 
 
