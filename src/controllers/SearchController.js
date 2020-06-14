@@ -14,7 +14,7 @@ module.exports = {
             type: 'Point',
             coordinates: [longitude, latitude],
           },
-          $maxDistance: 10000,
+          $maxDistance: 25000, //Raio de busca de 25KM
         },
       },
     });
