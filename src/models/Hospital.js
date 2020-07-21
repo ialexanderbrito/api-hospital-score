@@ -9,10 +9,6 @@ const HospitalSchema = new mongoose.Schema(
     city: String,
     image_url: String,
     type_hospital: String,
-    user: {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: 'User',
-    },
     location: {
       type: PointSchema,
       index: '2dsphere',
