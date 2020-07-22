@@ -11,6 +11,9 @@ const upload = multer(uploadConfig);
 
 routes.get('/hospitais', HospitalController.index);
 routes.get('/hospitais/:id', HospitalController.id);
+
+routes.delete('/hospitais/:id', HospitalController.delete);
+
 routes.post('/hospitais', upload.single('image_url'), HospitalController.store);
 
 routes.get('/search', SearchController.index);

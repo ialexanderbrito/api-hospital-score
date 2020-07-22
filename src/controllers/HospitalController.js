@@ -42,4 +42,12 @@ module.exports = {
 
     return response.json(hospitais);
   },
+
+  async delete(request, response) {
+    const id = await Hospital.deleteOne({ _id: request.params.id });
+
+    await Hospital.deleteOne({ id });
+
+    return response.send('Deleted');
+  },
 };
