@@ -7,6 +7,7 @@ const HospitalSchema = new mongoose.Schema(
     name: String,
     uf: String,
     city: String,
+    tel: String,
     image_url: String,
     type_hospital: String,
     location: {
