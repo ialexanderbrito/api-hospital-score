@@ -13,6 +13,7 @@
 </p>
 <p align="center">
   <a href="https://insomnia.rest/run/?label=API-HospitalScore&uri=https://raw.githubusercontent.com/ialexanderbrito/api-hospital-score/master/Insomnia_2020-06-11.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+ <a href="https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fialexanderbrito%2Fapi-hospital-score%2Ftree%2Fmaster%2Fdocs"><img src="https://vercel.com/button" alt="Deploy with Vercel"/></a>
 </p>
 
 
