@@ -1,6 +1,7 @@
 <h4 align="center">
-🏥<br>
- <b>API Hospitais do estado do RJ</b>
+ <img src=".github/logo.png" width="250px" /><br>
+<br>
+ <b>API Hospitais do estado do RJ 🏥</b>
 </h4>
 <p align="center">
     <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/ialexanderbrito/api-hospital-score?style=flat-square" />
@@ -37,6 +38,10 @@ Extras:
 
 <b>API Hospital Score</b>. É uma API para registrar hospitais com nome, cidade, imagem do hospital e sua localidade com latitude
 e longitude no estado do Rio de Janeiro.
+
+### 📄 Documentação
+
+- [Site](https://api-hospital-score.vercel.app/)
 
 ### ⚙ Como rodar este projeto
 
